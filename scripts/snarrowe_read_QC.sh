@@ -62,7 +62,7 @@ seq2=/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/sra_fastq/ERR
 
 # sequences have been trimmed to exclude bases with low quality and adapters have been excluded
 
-# Assignment 6
+# Assignment 7
 
 
 
