@@ -53,6 +53,7 @@ date
 # module load fastqc
 seq1=/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/sra_fastq/ERR6913211_1.fastq.gz 
 seq2=/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/sra_fastq/ERR6913211_2.fastq.gz 
+common=/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo
 
 #srun --cpus-per-task=2 --time=00:10:00 fastqc --outdir /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ --threads 2 --noextract $seq1 $seq2
 # would have been enough with 1 min 
@@ -63,6 +64,33 @@ seq2=/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/sra_fastq/ERR
 # sequences have been trimmed to exclude bases with low quality and adapters have been excluded
 
 # Assignment 7
+#srun --cpus-per-task=2 flash2 --threads=2 -z --output-directory=$common/data/merged_pairs/ --output-prefix=ERR6913211.flash $seq1 $seq2 2>&1 | tee -a $common/analyses/merged_pairs/snarrowe_flash2.log
+
+# output seqkit
+# file                                     format  type  num_seqs  sum_len  min_len  avg_len  max_len
+# ERR6913211.flash.extendedFrags.fastq.gz  FASTQ   DNA          9    1,122       52    124.7      256
+# Seems from the histogram that the length is quite short? 
+seqs_path=/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/sra_fastq
+
+srun --cpus-per-task=2 --time=00:10:00 xargs -a $common/analyses/snarrowe_run_accessions.txt -n 1 -I{} flash2 --threads=2 -z \
+--output-directory=$common/analyses/merged_pairs/ --output-prefix={}.flash $seqs_path/{}_1.fastq.gz $seqs_path/{}_2.fastq.gz 2>&1 | tee -a $common/analyses/merged_pairs/snarrowe_flash2_all.log 
+# Seems to be a lot of redundant information
+
+
+
+
+
+
+
+# Warning generated
+#[FLASH] WARNING: An unexpectedly high proportion of combined pairs (77.78%)
+#overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+#increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+#65 bp when considering them for possible combining!)
+#[FLASH] 0.014 seconds elapsed
+# [FLASH]     Percent combined:  90.00%
+
+
 
 
 
