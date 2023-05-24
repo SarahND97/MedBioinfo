@@ -1,0 +1,4 @@
+srun: job 33511082 queued and waiting for resources
+srun: job 33511082 has been allocated resources
+slurmstepd: error: execve(): flash2: No such file or directory
+srun: error: cpu-node-55: task 0: Exited with exit code 2

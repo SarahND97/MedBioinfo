@@ -1,0 +1,114 @@
+srun: job 33511114 queued and waiting for resources
+srun: job 33511114 has been allocated resources
+[FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/sra_fastq/ERR6913211_1.fastq.gz
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/sra_fastq/ERR6913211_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913274.flash.extendedFrags.fastq.gz
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913274.flash.notCombined_1.fastq.gz
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913274.flash.notCombined_2.fastq.gz
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913274.flash.hist
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913274.flash.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] ERROR: Expected '+' character in FASTQ separator in "/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/sra_fastq/ERR6913211_1.fastq.gz" (line 3)
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+srun: error: cpu-node-55: task 0: Exited with exit code 1
+srun: job 33511138 queued and waiting for resources
+srun: job 33511138 has been allocated resources
+[FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/sra_fastq/ERR6913211_1.fastq.gz
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/sra_fastq/ERR6913211_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913211.flash.extendedFrags.fastq.gz
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913211.flash.notCombined_1.fastq.gz
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913211.flash.notCombined_2.fastq.gz
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913211.flash.hist
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913211.flash.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] ERROR: Expected '+' character in FASTQ separator in "/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/sra_fastq/ERR6913211_1.fastq.gz" (line 3)
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+srun: error: cpu-node-23: task 0: Exited with exit code 1
+srun: job 33511142 queued and waiting for resources
+srun: job 33511142 has been allocated resources
+[FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/sra_fastq/ERR6913211_1.fastq.gz
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/sra_fastq/ERR6913211_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913211.flash.extendedFrags.fastq.gz
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913211.flash.notCombined_1.fastq.gz
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913211.flash.notCombined_2.fastq.gz
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913211.flash.hist
+[FLASH]     /shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs//ERR6913211.flash.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] Processed 10 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       10
+[FLASH]     Discarded pairs:   0
+[FLASH]     Percent Discarded: 0.00%
+[FLASH]     Combined pairs:    9
+[FLASH]         Innie pairs:   9 (100.00% of combined)
+[FLASH]         Outie pairs:   0 (0.00% of combined)
+[FLASH]     Uncombined pairs:  1
+[FLASH]     Percent combined:  90.00%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (77.78%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH] 0.014 seconds elapsed
+[FLASH] Finished with 1 warning (see above)

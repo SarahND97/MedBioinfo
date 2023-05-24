@@ -1,0 +1,24 @@
+Module	Section	Sample Name	Source
+Bowtie 2 / HiSAT2	all_sections	snarrowe_bowtie_merged2PhiX	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/bowtie/snarrowe_bowtie_merged2PhiX.log
+Bowtie 2 / HiSAT2	all_sections	snarrowe_bowtie_merged2SC2	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/bowtie/snarrowe_bowtie_merged2SC2.log
+FastQC	all_sections	ERR6913111_2	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913111_2_fastqc.zip
+FastQC	all_sections	ERR6913211_1	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913211_1_fastqc.zip
+FastQC	all_sections	ERR6913224_1	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913224_1_fastqc.zip
+FastQC	all_sections	ERR6913115_1	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913115_1_fastqc.zip
+FastQC	all_sections	ERR6913103_2	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913103_2_fastqc.zip
+FastQC	all_sections	ERR6913117_2	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913117_2_fastqc.zip
+FastQC	all_sections	ERR6913128_1	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913128_1_fastqc.zip
+FastQC	all_sections	ERR6913213_2	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913213_2_fastqc.zip
+FastQC	all_sections	ERR6913224_2	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913224_2_fastqc.zip
+FastQC	all_sections	ERR6913207_2	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913207_2_fastqc.zip
+FastQC	all_sections	ERR6913117_1	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913117_1_fastqc.zip
+FastQC	all_sections	ERR6913199_1	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913199_1_fastqc.zip
+FastQC	all_sections	ERR6913199_2	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913199_2_fastqc.zip
+FastQC	all_sections	ERR6913115_2	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913115_2_fastqc.zip
+FastQC	all_sections	ERR6913207_1	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913207_1_fastqc.zip
+FastQC	all_sections	ERR6913211_2	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913211_2_fastqc.zip
+FastQC	all_sections	ERR6913128_2	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913128_2_fastqc.zip
+FastQC	all_sections	ERR6913111_1	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913111_1_fastqc.zip
+FastQC	all_sections	ERR6913103_1	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913103_1_fastqc.zip
+FastQC	all_sections	ERR6913213_1	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/analyses/fastqc/ERR6913213_1_fastqc.zip
+FLASh	all_sections	snarrowe_flash2	/shared/home/snarrowe/medbioinfo_folder/sarah/MedBioinfo/data/merged_pairs/snarrowe_flash2.log

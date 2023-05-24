@@ -1,0 +1,5 @@
+srun: job 33511156 queued and waiting for resources
+srun: job 33511156 has been allocated resources
+Usage: flash [OPTIONS] MATES_1.FASTQ MATES_2.FASTQ
+Run `flash2 --help | less' for more information.
+srun: error: cpu-node-55: task 0: Exited with exit code 123
